@@ -3,7 +3,10 @@ fn main() {
     println!("Hello, world!");
 
     println!("Guess the number!");
+    guessing_game();
+}
 
+fn guessing_game() {
     println!("Please input your guess.");
 
     let mut guess = String::new();
